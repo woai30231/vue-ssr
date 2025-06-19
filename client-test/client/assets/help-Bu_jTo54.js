@@ -1,0 +1,1 @@
+import{_ as t,b as o,c as s,o as l,a}from"./index-DxI7CW23.js";const n={__name:"help",setup(r){return o(()=>{alert("帮助页面")}),(p,e)=>(l(),s("div",null,e[0]||(e[0]=[a("h1",null,"帮助页面",-1),a("p",null,"这里是帮助页面的内容。",-1)])))}},c=t(n,[["__scopeId","data-v-a3eba4da"]]);export{c as default};

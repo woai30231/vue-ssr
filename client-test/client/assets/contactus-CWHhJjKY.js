@@ -1,0 +1,1 @@
+import{_ as a,c as o,o as s,a as e}from"./index-DxI7CW23.js";const c={__name:"contactus",setup(n){return(r,t)=>(s(),o("div",null,t[0]||(t[0]=[e("h1",null,"联系我们",-1),e("p",null,"这里是联系我们页面的内容。",-1)])))}},l=a(c,[["__scopeId","data-v-89642823"]]);export{l as default};

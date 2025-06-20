@@ -3,6 +3,7 @@ import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
 import App from './App.vue';
 
 const routes = [
+  {path:'/', redirect:'/contactus'},
   { path: '/contactus', component: ()=>import("./components/contactus.vue") },
   { path: '/help', component: ()=> import("./components/help.vue") }
 ];

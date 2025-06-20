@@ -1,4 +1,4 @@
-<script setup>
+<script>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
@@ -13,6 +13,21 @@ let linkArray = [
         name: '联系我们'
     }
 ]
+export default {
+  data(){
+    return {
+      linkArray
+    }
+  },
+  computed:{
+    selfprops(){
+      return 'selfprops'
+    }
+  },
+  components:{
+    HelloWorld
+  }
+}
 </script>
 
 <template>
@@ -32,6 +47,8 @@ let linkArray = [
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+
+    <p>{{selfprops}}</p>
   </div>
   <HelloWorld msg="Vite + Vue" />
 
